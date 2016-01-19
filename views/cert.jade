@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  section#lay
+  section#dot1
+    h6 Pretty<br />Dot
+  section#dot2
+    h6 Pretty<br />Dot
+  section#certs.contentPage
+    h1 My Certificates
+    hr.styledhr
+    img(src='images/cert/html5.png' href='images/cert/html5.png' width='199' height='154' alt='html5 certificate' class='certPic popup-link')
+    img(src='images/cert/dbv3.png' href='images/cert/dbv3.png' width='199' height='140' alt='database certifcate' class='certPic popup-link')
+    img(src='images/cert/dreamweaverbadge-v2.png' href='images/cert/dreamweaverbadge-v2.png' width='229' height='126' alt='dreamweaver certificate' class='certPic popup-link')
+    img(src='images/cert/matr101.png' href='images/cert/matr101.png' width='156' height='241' alt='Matrix 101 Certificate' class='certPic popup-link')
+    img(src='images/cert/matr201.png' href='images/cert/matr201.png' width='153' height='241' alt='Matrix 201 Certificate' class='certPic popup-link')
+    img(src='images/cert/matr330.png' href='images/cert/matr330.png' width='135' height='160' alt='Matrix 330 Certificate' class='certPic popup-link')
+    p Certificate for Diploma coming soon &#040;When the college gets around to giving it to me&#041;
+  span.backButton
+    a(href='menu2' class='backTxt') Back
+  section#scripts
+    script(src='javascripts/magnific-lightbox-v1-min.js')
+    script
+      $('head').append('<link rel="stylesheet" type="text/css" href="stylesheets/magnific.css">');
+    script
+      $(document).ready(function(){$('.image-link').magnificPopup({type:'image'});});$('.popup-link').magnificPopup({type:'image'});

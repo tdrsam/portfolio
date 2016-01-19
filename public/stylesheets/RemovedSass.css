@@ -1,0 +1,63 @@
+/* DESKTOP */
+/*
+@-moz-document url-prefix(){
+	.menuBox h1{
+		font-size:1em;
+	}
+}
+@-webkit-document url-prefix(){
+	.menuBox h1{
+		font-size:1em;
+	}
+}*/
+
+/* PROJECTS PAGE */
+
+/*
+#studiesWp, #studiesAsp, #jude, #lalo, #urchin, #work{
+	zborder-top:2px solid black;
+	margin-bottom:10px;
+img{
+	margin: 50px 0 0 100px;
+	float:left;
+	border-radius:5px;
+}}
+#studiesWp h1, #studiesAsp h1, #jude h1, #lalo h1, #urchin h1, #work h1,{
+	font-size:2em;
+}
+#studiesWp p, #studiesAsp p, #jude p, #lalo p, #urchin p, #work p,{
+	font-family:Crimson;
+	margin-left:100px;
+}
+#studiesWp a, #studiesAsp a, #jude a, #lalo a, #urchin a, #work a{
+	display:block;
+	text-align:center;
+	font-size:2em;
+	color:#7ed5df;
+}
+#work{
+	border-bottom:2px solid black;
+}*/
+
+/* CONTACT PAGE */
+
+
+/*
+#contactPage h1, p, a{
+	text-align:center;
+	font-size:2em;
+	display:block;
+}*/
+/*
+#contactPage h1{
+	zborder-top:3px solid black;
+	padding:50px 50px;
+	margin:0;
+}*/
+
+/* CERT PAGE */
+/*
+#certs h1{
+	font-size:2em;
+	zmargin-top:111px;
+}*/

@@ -1,0 +1,15 @@
+
+
+
+
+
+
+	
+	host:	ftp.smportfolio.elementfx.com
+
+	username: sam@smportfolio.elementfx.com
+
+	password: {the usual}
+
+	port: 21
+	

@@ -1,0 +1,21 @@
+
+
+	Clever Cloud = E4.50 per month
+
+	Century Link = tweeted
+
+	https://github.com/nodejs/node-v0.x-archive/wiki/Node-Hosting
+
+
+
+
+	look for free vps
+	
+	http://stackoverflow.com/questions/16269232/installing-nodejs-and-socketio-in-a-remote-server
+
+	http://www.inmotionhosting.com/support/website/ssh/how-to-login-ssh
+
+	https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps
+
+
+	look for rsync

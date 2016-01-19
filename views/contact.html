@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/favicon.ico" rel="icon">
+    <link href="images/favicon.ico" rel="shortcut icon">
+    <link href="images/favicon.ico" rel="apple-touch-icon-precomposed">
+    <!--Stylesheets-->
+    <link href="/stylesheets/sass-mobile.css" rel="stylesheet" media="only screen and (max-device-width: 376px)">
+    <link href="/stylesheets/sass-tablet.css" rel="stylesheet" media="only screen and (min-device-width: 376px) and (max-device-width: 769px)">
+    <link href="/stylesheets/sass-desk.css" rel="stylesheet" media="only screen and (min-device-width: 769px)">
+    <link href="/stylesheets/animsition.min.css" rel="stylesheet">
+    <!--Scripts-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/javascripts/animsition.min.js"></script><!--[if IE 6]><link rel="stylesheet" href="http://mysite.com/path/to/ie6.css" type="text/css" media="screen, projection"><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="http://mysite.com/path/to/ie7.css" type="text/css" media="screen, projection"><![endif]-->
+  </head>
+  <body>
+    <div data-animsition-overlay="true" class="animsition-overlay">
+      <section id="dot1" class="mobileOnly">
+        <h6>Pretty<br />Dot</h6>
+      </section>
+      <section id="dot2" class="mobileOnly">
+        <h6>Pretty<br />Dot</h6>
+      </section>
+      <section id="contactPage" class="contentPage">
+        <h1>Contacts</h1>
+        <hr class="styledhr">
+        <h1>Email</h1>
+        <p>You can email me by</p><a href="mailto:tdrsam@hotmail.com">clicking here</a>
+        <p>or by copying this address&#58; tdrsam&#64;hotmail.com</p>
+        <hr class="styledhr">
+        <h1>Or send something from here. It'll go to the same place.</h1>
+        <form id="contactForm" method="post" action="formmail.php" enctype="multipart/form-data">
+          <label for="eponym"></label>
+          <input type="text" name="" id="eponym" placeholder="Name" focus>
+          <label for="email"></label>
+          <input type="text" name="email" id="email" placeholder="Email">
+          <label for="msg"></label>
+          <textarea name="msg" id="msg" rows="10" placeholder="Message"></textarea>
+          <button type="submit" id="submit">Send</button>
+        </form>
+        <hr class="styledhr">
+        <h1>Social Media</h1>
+        <ol>
+          <li><a href="http://www.linkedin.com/profile/view?id=AAIAABf8ZngBdQ_qxWQuux6rvHognkaBkWtekmg&amp;trk=nav_responsive_tab_profile"><img src="/images/in.png" alt="LinkedIn"></a></li>
+          <li><a href="https://www.facebook.com/thedeadrabbitzguitarnumberthree"><img src="/images/FB.png" alt="Facebook"></a></li>
+          <li><a href="https://twitter.com/samwebmartin"><img src="/images/tw.png" alt="Twitter"></a></li>
+        </ol>
+      </section><span class="backButton"><a href="menuPage" class="backTxt">Back</a></span>
+    </div>
+    <script src="javascripts/main-js.js"></script>
+  </body>
+</html>

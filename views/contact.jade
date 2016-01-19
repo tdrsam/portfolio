@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  section#dot1.mobileOnly
+    h6 Pretty<br />Dot
+  section#dot2.mobileOnly
+    h6 Pretty<br />Dot
+  section#contactPage.contentPage
+    h1 Contacts
+    hr.styledhr
+    h1 Email
+    p You can email me by
+    a(href='mailto:tdrsam@hotmail.com') clicking here
+    p or by copying this address&#58; tdrsam&#64;hotmail.com
+    hr.styledhr
+    h1 Or send something from here. It'll go to the same place.
+    form#contactForm(method='post' action='formmail.php' enctype='multipart/form-data')
+      label(for='eponym')
+      input(type='text' name='' id='eponym' placeholder='Name' focus)
+      label(for='email')
+      input(type='text' name='email' id='email' placeholder='Email')
+      label(for='msg')
+      textarea(name='msg' id='msg' rows='10' placeholder='Message')
+      button(type='submit' id='submit') Send
+    hr.styledhr
+    h1 Social Media
+    ol
+      li
+        a(href="http://www.linkedin.com/profile/view?id=AAIAABf8ZngBdQ_qxWQuux6rvHognkaBkWtekmg&trk=nav_responsive_tab_profile")
+          img(src='/images/in.png' alt='LinkedIn')
+      li
+        a(href='https://www.facebook.com/thedeadrabbitzguitarnumberthree')
+          img(src='/images/FB.png' alt='Facebook')
+      li
+        a(href='https://twitter.com/samwebmartin')
+          img(src='/images/tw.png' alt='Twitter')
+  span.backButton
+    a(href='menuPage' class='backTxt') Back
