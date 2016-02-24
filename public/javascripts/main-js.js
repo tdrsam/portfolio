@@ -17,8 +17,8 @@ $(document).ready(function() {
   $(".animsition-overlay").animsition({
     inClass: 'overlay-slide-in-bottom',
     outClass: 'overlay-slide-out-top',
-    inDuration: 1000,
-    outDuration: 1000,
+    inDuration: 500,
+    outDuration: 500,
     linkElement: '.animsition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
     loading: true,
