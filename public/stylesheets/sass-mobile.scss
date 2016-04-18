@@ -31,14 +31,13 @@ body section h1{
 	font-size:0.8em;	
 }
 
-}
 :-webkit-any(article,aside,nav,section) h1 {
 	font-size:inherit;
 }
 meta{display:initial;}
 a{
 	text-decoration:none;
-	color:lightsteelblue;
+	color:#159ecb;
 }
 
 body{
@@ -175,17 +174,25 @@ p{
 
 /* Projects Page */
 #studiesWp, #studiesAsp, #jude, #lalo, #urchin, #work{
-	margin-bottom:10px;
+	zmargin-bottom:10px;
+	position:relative;
+	margin: 0em 60px;
+	text-align:center;
 img{
-	margin: 50px 0 0 20px;
-	float:left;
-	width:50px;
-	height:auto;
-	border-radius:5px;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:110px;
+	left:0;
+	margin:auto;
+	width:30%;
+	z-index:-1;
+	opacity:0.2;
 }}
 #studiesWp p, #studiesAsp p, #jude p, #lalo p, #urchin p, #work p,{
 	font-family:Crimson;
-	margin-left:100px;
+	margin:20px 60px;
+	text-align:center;
 }
 #studiesWp a, #studiesAsp a, #jude a, #lalo a, #urchin a, #work a{
 	display:block;
